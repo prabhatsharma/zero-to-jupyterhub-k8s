@@ -3,6 +3,12 @@
 [![Build Status](https://travis-ci.org/jupyterhub/zero-to-jupyterhub-k8s.svg?branch=master)](https://travis-ci.org/jupyterhub/zero-to-jupyterhub-k8s)
 [![Documentation Status](https://readthedocs.org/projects/zero-to-jupyterhub/badge/?version=stable)](https://zero-to-jupyterhub.readthedocs.io/en/stable/?badge=stable)
                 
+To install using helm:
+
+```shell
+cd jupyterhub
+helm install . --name=jhub --values=config.yaml
+```
 
 **This is under active development and subject to change.**
 

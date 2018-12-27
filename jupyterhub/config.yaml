@@ -1,0 +1,9 @@
+proxy:
+  secretToken: "0c8b6ec3323681659ea7457c80c4ddd8562c96f7d4a6ccb9ac2c65ea55fc85a5"
+  service:
+    type: ClusterIP
+singleuser:
+  image: 
+    name: jupyter/all-spark-notebook
+    tag: latest 
+  
